@@ -611,8 +611,9 @@ const skills = [
     subtitle: ".NET and REST API development",
     levelLabel: "",
     items: [
-      { name: "ASP.NET Web API", level: "Advanced", percentage: 85 },
-      { name: "ASP.NET MVC", level: "Advanced", percentage: 80 },
+      { name: "C#", level: "Advanced", percentage: 85 },
+      { name: "ASP.NET Web API", level: "Advanced", percentage: 70 },
+      { name: "ASP.NET MVC", level: "Advanced", percentage: 70 },
     ],
   },
   {
@@ -639,13 +640,13 @@ const projects = [
    {
     name: "File Upload Management (FUM)",
     description: "Is a web-based application that allows developers to upload, manage, and update their system files directly on the server. It provides a secure and efficient way to deploy updates, manage version control, and streamline file distribution within the development environment. The system ensures controlled access and maintains logs of all uploaded files for tracking and accountability.",
-    tech: ["Vue", "Bootstrap", ".Net Web API"],
+    tech: ["Vue", "Bootstrap", "C#", ".Net Web API"],
     link: "",
   },
   {
     name: "eSpeed",
     description: "is a web-based application that automated system designed to calculate Request-to-Quote (RTQ) pricing for delivery trucks. It streamlines the entire quotation process by analyzing key logistics factors such as travel distance, vehicle type, load capacity, fuel consumption, and additional operational parameters. By automating these calculations, the system delivers quick, accurate, and consistent pricing estimates, significantly reducing manual work and minimizing human error. This enhances efficiency for service providers while giving customers faster and more reliable quotations.",
-    tech: ["Vue", "Bootstrap", ".Net Web API"],
+    tech: ["Vue", "Bootstrap", "C#", ".Net Web API"],
     link: "",
   },
   {
@@ -657,13 +658,13 @@ const projects = [
   {
     name: "Meeting Attendance Tracker (MAT)",
     description: "Is a web-based application designed to help organizations and companies efficiently create, manage, and track meetings or events. It simplifies the process of organizing attendees by allowing administrators to specify and structure who can participate in each meeting. In addition to attendance management, MAT includes an interactive points system. If the meeting or event includes games or team activities, the meeting creator can easily award points to individual participants or groups. This feature enhances engagement and provides an enjoyable experience for attendees.",
-    tech: ["Nuxt", "Tailwind CSS", ".Net Web API"],
+    tech: ["Nuxt", "Tailwind CSS", "C#", ".Net Web API"],
     link: "",
   },
   {
     name: "Meeting Attendance Tracker Station (MAT Station)",
     description: "Is a web-based application integrated with the Meeting Attendance Tracker (MAT). It allows users to conveniently check in to meetings using a built-in QR code scanner, ensuring fast and accurate attendance recording. With MAT Station, users can also view the real-time attendee list and easily identify whether each participant is attending on-site (Face-to-Face) or Online. This provides organizers with clear visibility and helps streamline meeting coordination and monitoring.",
-    tech: ["Nuxt", "Tailwind CSS", ".Net Web API"],
+    tech: ["Nuxt", "Tailwind CSS", "C#", ".Net Web API"],
     link: "",
   },
   {
